@@ -23,6 +23,7 @@ h1 {
 
 #content {
     width: 800px;
+    margin: 0 auto;
 }
 
 #nav {
@@ -30,8 +31,9 @@ h1 {
 }
 
 .nav_op {
+    float: left;
     width: 90%;
-    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
     border: 1px solid #07bcde;
     cursor: pointer;
     height: 150px;
