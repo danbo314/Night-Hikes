@@ -34,7 +34,7 @@ h1 {
     float: left;
     width: 100%;
     margin: 0 auto 20px auto;
-    border-bottom: 3px transparent;
+    border-bottom: 3px solid transparent;
     cursor: pointer;
     height: 78px;
     line-height: 78px;
