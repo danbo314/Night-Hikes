@@ -45,7 +45,7 @@ h1 {
 }
 
 .fb-page {
-    float: right;
+    margin-left: 20px;
 }
 
 a:link,
