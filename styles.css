@@ -25,6 +25,11 @@ h1 {
     width: 100%;
 }
 
+.nav {
+    width: 500px;
+    height: 200px;
+}
+
 a:link,
 a:visited,
 a:hover,
