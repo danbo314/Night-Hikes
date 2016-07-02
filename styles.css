@@ -32,13 +32,12 @@ h1 {
 }
 
 .nav_op {
-    float: left;
     width: 50%;
     margin: 0 auto 20px auto;
     border-bottom: 3px solid transparent;
     cursor: pointer;
-    height: 78px;
-    line-height: 78px;
+    height: 75px;
+    line-height: 75px;
     padding: 15px;
     text-align: center;
     font-size: 25px;
