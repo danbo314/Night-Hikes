@@ -28,11 +28,12 @@ h1 {
 
 #nav {
     width: 450px;
+    float: left;
 }
 
 .nav_op {
     float: left;
-    width: 100%;
+    width: 50%;
     margin: 0 auto 20px auto;
     border-bottom: 3px solid transparent;
     cursor: pointer;
@@ -69,7 +70,7 @@ h1 {
 }
 
 .fb-page {
-    margin-left: 20px;
+    float: right;
 }
 
 a:link,
