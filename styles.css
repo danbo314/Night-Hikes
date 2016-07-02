@@ -32,9 +32,9 @@ h1 {
 
 .nav_op {
     float: left;
-    width: 90%;
-    margin-bottom: 20px;
-    border: 1px solid #07bcde;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    border-bottom: 3px transparent;
     cursor: pointer;
     height: 78px;
     line-height: 78px;
@@ -42,6 +42,30 @@ h1 {
     text-align: center;
     font-size: 25px;
     font-family: 'Damion', cursive;
+}
+
+.nav_op:hover {
+    color: white;
+}
+
+#nav_bio:hover {
+    color: #C46481;
+    border-bottom: 3px solid #C46481;
+}
+
+#nav_gigs:hover {
+    color: #CF69BA;
+    border-bottom: 3px solid #CF69BA;
+}
+
+#nav_music:hover {
+    color: #AB67B8;
+    border-bottom: 3px solid #AB67B8;
+}
+
+#nav_pv:hover {
+    color: #A269CF;
+    border-bottom: 3px solid #A269CF;
 }
 
 .fb-page {
