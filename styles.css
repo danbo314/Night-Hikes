@@ -1,5 +1,16 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
+    height: 100%;
+    background: url(hikes_sm.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
@@ -10,6 +21,7 @@ h1 {
 
 .icons {
     font-size: 30px;
+    padding: 5px;
 }
 
 .icon-social-instagram:hover {
@@ -33,8 +45,32 @@ h1 {
 }
 
 #social {
-    width: 166px;
-    margin: -20px auto 0 auto;
+    width: 216px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#sidebar {
+    position: absolute;
+    display: block;
+    right: 0;
+    list-style: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#sidebar > li {
+    padding: 15px;
+    margin: 10px 0;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    background: rgba(255,255,255,.6);
+    cursor: pointer;
+}
+
+#sidebar > li:hover {
+    background: #FFFFFF;
+    color: rgb(249, 72, 110);
 }
 
 #content {
