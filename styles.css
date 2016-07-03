@@ -28,8 +28,12 @@ h1 {
     color: rgb(59, 89, 152);
 }
 
+.icon-envelope:hover {
+    color: #A269CF;
+}
+
 #social {
-    width: 140px;
+    width: 166px;
     margin: -20px auto 0 auto;
 }
 
