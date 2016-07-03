@@ -28,6 +28,14 @@ body {
     background-image: url(hikes3_sm.jpg);
 }
 
+#music_header {
+    background-image: url(nh3.jpg);
+}
+
+#merch_header {
+    background-image: url(hikes4_sm.jpg);
+}
+
 .sub_content {
     margin: -200px auto 0 auto;
     max-width: 100%;
