@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#bio_header {
+    background-image: url(bio.jpg);
+}
+
+#gig_header {
+    background-image: url(hikes3_sm.jpg);
+}
+
+.sub_content {
+    margin: -200px auto 0 auto;
+    max-width: 100%;
+    width: 800px;
+    height: 800px;
+    padding: 50px;
+    background: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    font-size: 70px;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+}

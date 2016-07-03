@@ -1,64 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Night Hikes</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Night Hikes</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Yellowtail|Mr+Dafoe|Condiment|Damion|Nothing+You+Could+Do|Permanent+Marker|Caveat|Bad+Script' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
-    <link href="styles.css" rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                appId      : '481193592076826',
-                xfbml      : true,
-                version    : 'v2.6'
-            });
-        };
+        <link href='https://fonts.googleapis.com/css?family=Yellowtail|Mr+Dafoe|Condiment|Damion|Nothing+You+Could+Do|Permanent+Marker|Caveat|Bad+Script' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
+        <link href="styles.css" rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '481193592076826',
+                    xfbml      : true,
+                    version    : 'v2.6'
+                });
+            };
 
-        (function(d, s, id){
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {return;}
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
 
-    <!--<h1 id="a">Night Hikes</h1>-->
-    <!--<h1 id="b">Night Hikes</h1>-->
-    <!--<h1 id="c">Night Hikes</h1>-->
-    <!--<h1 id="d">Night Hikes</h1>-->
-    <!--<h1 id="e">Night Hikes</h1>-->
-    <!--<h1 id="f">Night Hikes</h1>-->
-    <!--<h1 id="g">Night Hikes</h1>-->
-    <!--<h1 id="h">Night Hikes</h1>-->
-    <div id="social">
-        <a href="https://www.facebook.com/nighthikes/?fref=ts" target="_blank"><span class="icon-social-facebook icons"></span></a>
-        <a href="https://twitter.com/night_hikes" target="_blank"><span class="icon-social-twitter icons"></span></a>
-        <a href="https://www.instagram.com/nighthikes/?hl=en" target="_blank"><span class="icon-social-instagram icons"></span></a>
-        <a href="https://nghthks.bandcamp.com/" target="_blank"><span class="icon-music-tone-alt icons"></span></a>
-        <a href="mailto:nighthikesband@gmail.com"><span class="icon-envelope icons"></span></a>
-    </div>
-    <ul id="sidebar">
-        <li>Biography</li>
-        <li>Gigs</li>
-        <li>Music</li>
-        <li>Photos / Videos</li>
-        <li>Contact</li>
-        <li>Subscribe</li>
-    </ul>
-    <!--<div id="content">-->
-        <!--<div id="nav">-->
-            <!--<div class="nav_op" id="nav_bio">Biography</div>-->
-            <!--<div class="nav_op" id="nav_gigs">Gigs</div>-->
-            <!--<div class="nav_op" id="nav_music">Music</div>-->
-            <!--<div class="nav_op" id="nav_pv">Photos / Videos</div>-->
-        <!--</div>-->
+        <div id="social">
+            <a href="https://www.facebook.com/nighthikes/?fref=ts" target="_blank"><span class="icon-social-facebook icons"></span></a>
+            <a href="https://twitter.com/night_hikes" target="_blank"><span class="icon-social-twitter icons"></span></a>
+            <a href="https://www.instagram.com/nighthikes/?hl=en" target="_blank"><span class="icon-social-instagram icons"></span></a>
+            <a href="https://nghthks.bandcamp.com/" target="_blank"><span class="icon-music-tone-alt icons"></span></a>
+            <a href="mailto:nighthikesband@gmail.com"><span class="icon-envelope icons"></span></a>
+        </div>
+        <ul id="sidebar">
+            <a href="bio.html"><li>Biography</li></a>
+            <a href="gigs.html"><li>Gigs</li></a>
+            <li>Music</li>
+            <li>Photos / Videos</li>
+            <li>Contact</li>
+            <li>Subscribe</li>
+        </ul>
         <!--<div class="fb-page" data-href="https://www.facebook.com/nighthikes/?fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nighthikes/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nighthikes/?fref=ts">Night Hikes</a></blockquote></div>-->
-    <!--</div>-->
-    <!--<div id="footer">Night Hikes &middot; <a href="http://danbolivar.me" target="_blank">Dan Bolivar</a> 2016</div>-->
-</body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="main.js" type="javascript"></script>
+    </body>
 </html>

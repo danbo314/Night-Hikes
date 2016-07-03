@@ -59,7 +59,7 @@ h1 {
     transform: translateY(-50%);
 }
 
-#sidebar > li {
+#sidebar li {
     padding: 15px;
     margin: 10px 0;
     font-family: 'Nothing You Could Do', cursive;
@@ -68,7 +68,7 @@ h1 {
     cursor: pointer;
 }
 
-#sidebar > li:hover {
+#sidebar li:hover {
     background: #FFFFFF;
     color: rgb(249, 72, 110);
 }
