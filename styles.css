@@ -16,12 +16,20 @@ h1 {
     color: rgb(216, 47, 130);
 }
 
+.icon-social-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.icon-music-tone-alt:hover {
+    color: rgb(99, 154, 169);
+}
+
 .icon-social-facebook:hover {
     color: rgb(59, 89, 152);
 }
 
 #social {
-    width: 70px;
+    width: 140px;
     margin: -20px auto 0 auto;
 }
 
