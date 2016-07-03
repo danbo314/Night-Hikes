@@ -90,3 +90,41 @@ h1 {
     color: #FFFFFF;
     font-size: 40px;
 }
+
+#footer {
+    width: 100%;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+    color: grey;
+    border-top: 1px solid #cbcbcb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 12px;
+}
+
+#footer > a {
+    color: grey;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#music > a {
+    color: rgb(99, 154, 169);
+}
+
+#music > a:hover {
+    text-decoration: underline;
+}
+
+#music {
+    font-size: 18px;
+}
+
+.sample_wrap {
+    width: 700px;
+    margin: 20px auto 0 auto;
+}
+
+.coming_soon {
+    padding-top: 100px;
+    height: 200px;
+}
