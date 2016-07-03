@@ -61,7 +61,7 @@ h1 {
 }
 
 #heads {
-    width: 444px;
+    width: 484px;
     margin: 50px auto;
 }
 
@@ -71,8 +71,8 @@ h1 {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    cursor: pointer;
     margin-left: 20px;
+    border: 10px solid #CBCBCB;
 }
 
 .circle > img {
