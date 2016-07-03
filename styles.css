@@ -79,28 +79,6 @@ h1 {
     margin: 100px auto;
 }
 
-#nav {
-    width: 450px;
-    float: left;
-}
-
-.nav_op {
-    width: 50%;
-    margin: 0 auto 20px auto;
-    border-bottom: 3px solid transparent;
-    cursor: pointer;
-    height: 75px;
-    line-height: 75px;
-    padding: 15px;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Damion', cursive;
-}
-
-.nav_op:hover {
-    color: white;
-}
-
 #nav_bio:hover {
     color: #C46481;
     border-bottom: 3px solid #C46481;
