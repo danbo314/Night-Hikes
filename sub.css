@@ -32,7 +32,7 @@ a:active {
 }
 
 #gig_header {
-    background-image: url(hikes3_sm.jpg);
+    background-image: url(nh11.jpg);
 }
 
 #music_header {
@@ -41,6 +41,10 @@ a:active {
 
 #merch_header {
     background-image: url(hikes4_sm.jpg);
+}
+
+#contact_header {
+    background-image: url(hikes2_sm.jpg);
 }
 
 .sub_content {
@@ -127,4 +131,22 @@ h1 {
 .coming_soon {
     padding-top: 100px;
     height: 200px;
+}
+
+.Collage{
+    /* define how much padding you want in between your images */
+    padding:10px;
+}
+
+.Collage img{
+    /* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:0;
+}
+
+.effect-parent {
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    perspective: 1300px;
 }
