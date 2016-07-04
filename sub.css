@@ -89,10 +89,15 @@ h1 {
 
 .icon-home {
     position: fixed;
-    top: 40px;
-    left: 40px;
-    color: #FFFFFF;
+    top: 30px;
+    left: 30px;
     font-size: 40px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .6);
+}
+
+.icon-home:hover {
+    color: rgb(249, 72, 110);
 }
 
 #footer {
@@ -196,4 +201,13 @@ a.twitter-timeline:focus {
 
 #contact_sub h1 {
     padding-bottom: 50px;
+}
+
+#contact_sub p {
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+#contact_sub a#email:hover {
+    color: rgb(249, 72, 110);
 }
