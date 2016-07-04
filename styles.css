@@ -114,3 +114,13 @@ a.twitter-timeline:focus {
     outline: none;
     border-color: #0089cb;
 }
+
+#twitter_wrapper {
+    width: 50%;
+    float: left;
+}
+
+.fb-page {
+    width: 50%;
+    float: right;
+}
