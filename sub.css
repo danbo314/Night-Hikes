@@ -47,6 +47,10 @@ a:active {
     background-image: url(hikes2_sm.jpg);
 }
 
+#subscribe_header {
+    background-image: url(nh2.jpg);
+}
+
 .sub_content {
     margin: -200px auto 0 auto;
     max-width: 100%;
@@ -210,4 +214,9 @@ a.twitter-timeline:focus {
 
 #contact_sub a#email:hover {
     color: rgb(249, 72, 110);
+}
+
+#mc_embed_signup{
+    clear: left;
+    /*font: 14px Helvetica,Arial,sans-serif;*/
 }
