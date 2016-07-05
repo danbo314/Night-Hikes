@@ -203,7 +203,8 @@ a.twitter-timeline:focus {
     height: 800px;
 }
 
-#contact_sub h1 {
+#contact_sub h1,
+#sub_sub h1 {
     padding-bottom: 50px;
 }
 
@@ -218,5 +219,4 @@ a.twitter-timeline:focus {
 
 #mc_embed_signup{
     clear: left;
-    /*font: 14px Helvetica,Arial,sans-serif;*/
 }
