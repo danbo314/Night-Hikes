@@ -192,6 +192,12 @@ a.twitter-timeline:focus {
 #twitter_wrapper {
     width: 45%;
     float: left;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+#twitter_wrapper > iframe {
+    
 }
 
 .fb-page {
