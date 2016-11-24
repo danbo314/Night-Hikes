@@ -11,12 +11,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
+    font-family: 'Nothing You Could Do', cursive;
     text-align: center;
     font-size: 70px;
     cursor: default;
+    padding: 0;
+    margin: 0;
 }
 
 .icons {
@@ -85,4 +89,54 @@ a:hover,
 a:active {
     color: black;
     text-decoration: none;
+}
+
+.announcement-overlay {
+    background: rgba(255,255,255,.85);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    overflow: auto;
+}
+
+.announcement-overlay h1 {
+}
+
+.announcement-overlay .announcement-content {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.announcement-overlay .album-cover {
+    background: url('images/nh_album_ann.jpg');
+    background-size: cover;
+
+    width: 500px;
+    height: 500px;
+}
+
+.announcement-content p {
+    text-align: center;
+}
+
+.announcement-overlay .album-cover iframe {
+    position: absolute;
+    bottom: 0;
+}
+
+.icon-close {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon-close:hover {
+    color: rgb(249, 72, 110);
 }

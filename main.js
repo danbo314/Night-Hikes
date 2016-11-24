@@ -4,6 +4,8 @@
 
 $(function () {
 
-
+    $('.icon-close').on('click', function (ev) {
+        $('.announcement-overlay').fadeOut();
+    });
 
 });
