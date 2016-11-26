@@ -91,16 +91,41 @@ h1 {
     font-size: 20px;
 }
 
-.icon-home {
+.menu {
     position: fixed;
     top: 30px;
     left: 30px;
-    font-size: 40px;
-    padding: 10px;
-    background: rgba(255, 255, 255, .6);
 }
 
-.icon-home:hover {
+.icon-menu {
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.icon-menu:hover {
+    color: rgb(249, 72, 110);
+}
+
+#nav-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 -30px;
+}
+
+#nav-menu li {
+    padding: 15px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    background: rgb(255,255,255);
+    cursor: pointer;
+}
+
+#nav-menu li:hover {
+    background: #FFFFFF;
     color: rgb(249, 72, 110);
 }
 

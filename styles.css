@@ -106,7 +106,7 @@ a:active {
 }
 
 .announcement-overlay .announcement-content {
-    width: 500px;
+    width: 700px;
     margin: 0 auto;
     position: relative;
 }
@@ -115,7 +115,7 @@ a:active {
     background: url('images/nh_album_ann.jpg');
     background-size: cover;
 
-    width: 500px;
+    width: 700px;
     height: 500px;
 }
 
@@ -123,9 +123,8 @@ a:active {
     text-align: center;
 }
 
-.announcement-overlay .album-cover iframe {
-    position: absolute;
-    bottom: 0;
+.announcement-overlay iframe {
+    margin: 20px 0;
 }
 
 .icon-close {
